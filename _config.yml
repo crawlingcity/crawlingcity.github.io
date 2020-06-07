@@ -1,0 +1,78 @@
+# Site
+repository: crawlingcity/crawlingcity.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: João Cunha
+title: Backend Developer / Devops
+email: crawlingcity@gmail.com
+website: www.crawlingcity.com
+
+darkmode: never
+
+# Social links
+twitter_username: crawlingcity
+github_username: crawlingcity
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: crawlingcity
+linkedin_username: crawlingcity
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's João Cunha and I'm a backend developer with over 4 years experience, based in Porto, Portugal. I'm currently working at [Webcomum](http://www.webcomum.com/), as a backend developer and I'm responsible for everything ops inside the company.<br /><br />
+
+  I'm a bit of a performance freak, I always try to make whatever I'm working on, faster - cache comes after, never before!<br />
+  I am mostly skilled in: <mark>PHP</mark>, <mark>Yii2</mark>, <mark>Python</mark>, <mark>JavaScript</mark>, <mark>Node.js</mark>, <mark>MySQL</mark>, <mark>git</mark>, <mark>Docker</mark>, <mark>AWS Services</mark> and <mark>Drinking Coffee</mark>.<br /><br />
+
+  Lately I've been delving a lot into <mark>AWS SQS</mark> + <mark>AWS Lambda</mark> written in <mark>Python</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in systems and software engineering some of my other interests and hobbies are:
+   - Gaming
+   - Guitar (sometimes)
+   - Home Automation
+   - Learning new Stuff!
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: crawlingcity/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
+
+theme: jekyll-theme-cayman

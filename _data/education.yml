@@ -1,0 +1,13 @@
+- layout: left
+  name: ISLA Gaia
+  dates: 2015 - 2017
+  qualification: Senior Professional Technician in Development for the Web
+  description: | # this will include new lines to allow paragraphs
+    After a break, where I had to work for a living, I joined this course to change my life and start my web developer career
+
+- layout: right
+  name: Escola Ruiz Costa
+  dates: 2007 - 2009
+  qualification: Management Computer Technician
+  description: | # this will include new lines to allow paragraphs
+    I was properly introduced to programming in this school, which made me want to pursue a career as a developer, not yet web related.

@@ -1,0 +1,43 @@
+- layout: left
+  company: webcomum
+  link: webcomum.com
+  job_title: Backend
+  dates: February 2017 - Present
+  description: | # this will include new lines to allow paragraphs
+    * Helped develop and maintain the "in-house" CMS used to build online shops, using the Yii2 Framework (PHP)
+    * Introduced Algolia to the company to improve search in our already developed projects and new ones - which served as a starting point to build smaller but fast search systems using our own approach
+    * Created a lot of in house tooling to help our daily workflow and improve performance for everyone being it repetitive tasks or difficult and time consuming tasks that, with a devops approach, could be automatize
+    * Worked on a big project that needed scaling and was constantly growing and helped made the move from a monolithic approach to a microservice stack on AWS.
+    * Worked on Node.js for scraping, some tooling to help the project that was later converted to python
+    * Developed a scrap system using python and aws lambda that, giving an url, would parse the information and save it to a Mongo database.
+
+- layout: right
+  company: webcomum
+  link: webcomum.com
+  job_title: Frontend
+  dates: February 2017 - Present
+  description: | # this will include new lines to allow paragraphs
+    * Rewrote/fix several gulp files that were obsolete and added image optimization flow
+    * Replaced gulp with webpack in some projects, specially those with a lot of javascript that needed compiling automatically
+    * Created a stackoverflow-like website where our team could post questions and get answers, using Nuxt.js and Axios that would get the info from an API developed in Yii2 (PHP) and swagger
+
+- layout: left
+  company: webcomum
+  link: webcomum.com
+  job_title: Frontend
+  dates: February 2017 - Present
+  description: | # this will include new lines to allow paragraphs
+    * Moved the company from Filezilla-Deploy to a continuous deploy using deployer.org
+    * Improved this continuous deployment with GitLab CI/CD, using my our own runners, on our in house server, using docker.
+    * We have a server in house that we use to host our databases MySql, Mongo, an Apache server etc that used to run with everything native, and when something went wrong, we could lose everything (hardware failure etc). I took this and implemented docker to host everything on it's own container, managed by Portainer, and scalable as needed.
+    * Every project has it's own docker-compose file and it's own gitlab repo, so anyone can clone it and improve it upon.
+    * To manage this server I used ansible, to manage users and if they have sudo access or not, depending on their level within the company, or to revoke in case someone leaves
+
+- layout: right
+  company: webcomum
+  link: webcomum.com
+  job_title: "without category"
+  dates: February 2017 - Present
+  description: | # this will include new lines to allow paragraphs
+    * I was asked several times to solve difficult problems, not necessarily backend related, but a solution was needed, and I don't give up until I have one - usually this is where I do my own R&D and learn new tools (like docker, ansible etc) to improve the solution and to make it more approachable by others (devops)
+    * I was tasked with improving and optimizing several websites, which made me work with optimizing database access, writing triggers and procedures, php scripts optimization and improve how the frontend was built - using webpack/gulp or vue - and trying to make the website feel as fast as possible overall
