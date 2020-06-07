@@ -24,7 +24,7 @@
 - layout: left
   company: webcomum
   link: webcomum.com
-  job_title: Frontend
+  job_title: Devops
   dates: February 2017 - Present
   description: | # this will include new lines to allow paragraphs
     * Moved the company from Filezilla-Deploy to a continuous deploy using deployer.org
