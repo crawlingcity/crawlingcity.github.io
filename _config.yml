@@ -31,7 +31,7 @@ about_content: | # this will include new lines to allow paragraphs
   I'm a bit of a performance freak, I always try to make whatever I'm working on, faster - cache comes after, never before!<br />
   I am mostly skilled in: <mark>PHP</mark>, <mark>Yii2</mark>, <mark>Python</mark>, <mark>JavaScript</mark>, <mark>Node.js</mark>, <mark>MySQL</mark>, <mark>git</mark>, <mark>Docker</mark>, <mark>AWS Services</mark> and <mark>Drinking Coffee</mark>.<br /><br />
 
-  Lately I've been delving a lot into <mark>AWS SQS</mark> + <mark>AWS Lambda</mark> written in <mark>Python</mark>
+  Lately I've been delving a lot into AWS Services, namely <mark>AWS SQS</mark> + <mark>AWS Lambda</mark> written in <mark>Python</mark>
 
 # Projects Section
 # projects_title: Projects
