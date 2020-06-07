@@ -27,7 +27,7 @@
   job_title: Devops
   dates: February 2017 - Present
   description: | # this will include new lines to allow paragraphs
-    * Moved the company from Filezilla-Deploy to a continuous deploy using deployer.org
+    * Moved the company from Filezilla to a continuous deploy using deployer.org
     * Improved this continuous deployment with GitLab CI/CD, using my our own runners, on our in house server, using docker.
     * We have a server in house that we use to host our databases MySql, Mongo, an Apache server etc that used to run with everything native, and when something went wrong, we could lose everything (hardware failure etc). I took this and implemented docker to host everything on it's own container, managed by Portainer, and scalable as needed.
     * Every project has it's own docker-compose file and it's own gitlab repo, so anyone can clone it and improve it upon.
